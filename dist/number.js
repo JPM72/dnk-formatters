@@ -92,6 +92,8 @@ export function Rands(value, prefix = 'R') {
 export const numberFormatter = Object.assign(numberFormatterFn, {
     parseNumber,
     pipes,
-    Amount, Percentage,
-    Integer, Rands,
+    amount: Amount,
+    percentage: Percentage,
+    integer: Integer,
+    rands: Rands,
 });

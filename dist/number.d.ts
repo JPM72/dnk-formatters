@@ -18,10 +18,10 @@ type NumberFormatter = {
     (value: any, options?: NumberFormatterOptions): string;
     parseNumber: typeof parseNumber;
     pipes: typeof pipes;
-    Amount: typeof Amount;
-    Percentage: typeof Percentage;
-    Integer: typeof Integer;
-    Rands: typeof Rands;
+    amount: typeof Amount;
+    percentage: typeof Percentage;
+    integer: typeof Integer;
+    rands: typeof Rands;
 };
 export declare const numberFormatter: NumberFormatter;
 export {};

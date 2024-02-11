@@ -14,10 +14,10 @@ export declare const formatters: {
             signed: ((value: number) => string)[];
             unsigned: ((value: number) => string)[];
         };
-        Amount: typeof import("./number").Amount;
-        Percentage: typeof import("./number").Percentage;
-        Integer: typeof import("./number").Integer;
-        Rands: typeof import("./number").Rands;
+        amount: typeof import("./number").Amount;
+        percentage: typeof import("./number").Percentage;
+        integer: typeof import("./number").Integer;
+        rands: typeof import("./number").Rands;
     };
     string: {
         contractWhitespace: (s: any) => string;
