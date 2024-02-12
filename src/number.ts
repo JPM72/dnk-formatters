@@ -113,7 +113,7 @@ export function Percentage(value, placeholder = '-')
 	return value ? `${Amount(value)}%` : placeholder
 }
 
-export function Integer(value, placeholder)
+export function Integer(value, placeholder = '-')
 {
 	return numberFormatterFn(value, { scale: 0, placeholder })
 }

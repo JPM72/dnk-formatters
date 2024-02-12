@@ -12,7 +12,7 @@ declare const pipes: {
 export declare function numberFormatterFn(value: any, options?: NumberFormatterOptions): string;
 export declare function Amount(value: any, placeholder?: string): string;
 export declare function Percentage(value: any, placeholder?: string): string;
-export declare function Integer(value: any, placeholder: any): string;
+export declare function Integer(value: any, placeholder?: string): string;
 export declare function Rands(value: any, prefix?: string): string;
 type NumberFormatter = {
     (value: any, options?: NumberFormatterOptions): string;
